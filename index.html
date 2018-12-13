@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JS Game Challenge</title>
+  <link href="https://fonts.googleapis.com/css?family=Unlock|ZCOOL+QingKe+HuangYou" rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+    
+</head>
+<body>
+  <div style="width: 700px;margin: 0 auto;">
+    <h1 style="margin-bottom:5px">Soccer, JavaScript, and CSS oh My!</h1>
+    <h2 style="margin-top: 0">...the game!</h2>
+    <div style="margin: 0 auto;text-align:center"> <!--Reset button-->
+      <button id="reset">RESET</button><br>
+      NUMBER OF RESETS: <span id="num-resets">0</span>
+    </div>
+
+    <div class="clear"></div>
+
+    <div class="left team1">
+      <h2>
+        Team 1
+      </h2>
+      <div class="hits">
+        SHOTS TAKEN: <span id="teamone-numshots">0</span><br>
+        GOALS: <span id="teamone-numhits">0</span>
+      </div>
+      <div>
+        <button id="teamone-shoot">SHOOT</button>
+      </div>
+    </div><!--Team 1 end-->
+
+    <div class="right team2">
+      <h2>
+        Team 2
+      </h2>
+      <div class="hits">
+        SHOTS TAKEN: <span id="teamtwo-numshots">0</span><br>
+        GOALS: <span id="teamtwo-numhits">0</span>
+      </div>
+      <div>
+        <button id="teamtwo-shoot">SHOOT</button>
+      </div>
+    </div><!--Team 2 end-->
+    
+    <div class="clear"></div>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>

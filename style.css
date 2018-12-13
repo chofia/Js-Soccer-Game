@@ -1,0 +1,32 @@
+/* given CSS */
+.hide {
+  display: none;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.clear {
+  clear: both;
+}
+
+/*My CSS*/
+body{
+font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+h1,h2{
+    font-family: 'Unlock', cursive;
+    text-align: center;
+}
+
+button{
+    background-color: black;
+    color: #fff;
+    font-family: 'Unlock', cursive;
+    font-size: 120%;
+    border-radius: 5px;
+    width: 75px;
+    height: 25px;
+}
